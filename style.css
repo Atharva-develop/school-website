@@ -1,0 +1,412 @@
+body{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(248, 247, 247);
+}
+@media(max-width: 500px) {
+    body {
+        width: 100%; /* Use 100% for better responsiveness */
+        margin: 0; /* Remove any default margin */
+    }
+    #mainheading2, #cbselogo {
+        display: none;
+    }
+    #mainheading {
+        position: relative; /* Change to relative for flow layout */
+        text-align: center; /* Center the heading text */
+        margin-left: 200px; /* Add vertical margin */
+    }
+    #jvplogo {
+        position: relative; /* Change to relative for flow layout */
+        text-align: center; /* Center the logo */
+        margin: 20px auto; /* Center element with margin */
+    }
+    #nav {
+        width: 900px; /* Full width for better responsiveness */
+        text-align: center; /* Center links */
+    }
+    .links {
+        font-size: small; /* Adjust text size */
+        margin: 0 5px; /* Slightly more margin for better spacing */
+        padding: 10px; /* Add padding for better click area */
+        display: inline-block; /* Allows padding and margin */
+        color: #000; /* Change text color if needed */
+        text-decoration: none; /* Remove underline */
+    }
+    .links:hover {
+        text-decoration: underline; /* Optional: Add underline on hover */
+        color: #007BFF; /* Optional: Change color on hover */
+    }
+    #content {
+        position: relative; /* Change to relative for flow layout */
+        margin-left: -200px; /* Add margin for spacing */
+        padding: 0px; /* Add padding for better readability */
+        text-align: justify; /* Justify text for better readability */
+    }
+    #img1 {
+        border: 1px solid black;
+        width: 400px; /* Make image responsive */
+        height: auto; /* Maintain aspect ratio */
+        margin: 20px 0; /* Add vertical margin for spacing */
+    }
+    #pp1 {
+        border-radius: 10px;
+        z-index: 5;
+        margin-top: 450px; /* Responsive width */
+        max-width: 550px; /* Max width */
+        height: auto; /* Adjust height based on content */
+        margin-left: -650px;
+    }
+    #ll1 {
+        background-color: rgb(248, 247, 247);
+        width: 140px;
+        height: 50px;
+        position: relative; /* Change to relative for flow layout */
+        border-radius: 20px;
+        animation-name: animation1;
+        animation-duration: 5s;
+        animation-fill-mode: forwards;
+        visibility: hidden;
+        margin: 20px auto; /* Center element */
+    }
+    #a{
+        position: absolute;
+        left: 150px;
+    }
+    #b{
+        position: absolute;
+        top: 500px;
+    }
+    #f{
+        position: absolute;
+        top: 1000px;
+    }
+}
+
+
+#main{
+    width: 100%;
+    height: 100%;
+    margin: 2px;
+    padding: 20px;
+}
+#mainheading{
+    position: absolute;
+    left: 210px;
+}
+#mainheading2{
+    position: absolute;
+    top: 18px;
+    left: 790px;
+}
+#jvplogo{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    left: 100px;
+    top: 20px;
+}
+#cbselogo{
+    width: 150px;
+    height: 100px;
+    position: absolute;
+    left: 640px;
+    top: 20px;
+}
+.line-under {
+    border-bottom: 2px solid black;
+    margin-top: 100px;
+    margin-left: -30px;
+}
+.nav{
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    margin-left: -30px;
+    margin-right: 30px;
+}
+#nav {
+    background-color: black;
+    padding: 20px;
+    text-align: center; 
+    margin-left: -30px;
+    margin-right: 30px;
+    z-index: 10;
+}
+.links {
+    padding: 10px 20px; 
+    margin: 0 15px; 
+    color: white;
+    text-decoration: none; 
+    font-size: 18px; 
+}
+.links:hover {
+    background-color: white;
+    color: black;
+    border-radius: 5px; 
+}
+#content{
+    position: absolute;
+    left: 100px;
+    top: 0px;
+}
+#img1{
+    border: 1px solid black;
+    width: 800px;
+    height: 500px;
+    position: absolute;
+    top: 200px;
+    left: 0px;
+}
+#pp1{
+    border-radius: 10px;
+    z-index: 5;
+    position: absolute;
+    top: 260px;
+    left: 810px;
+    width: 450px;
+    height: 360px;
+    text-align: justify;
+}
+#ll1{
+    background-color: rgb(248, 247, 247);
+    width: 140px;
+    height: 50px;
+    position: absolute;
+    top: 220px;
+    left: 350px;
+    border-radius: 20px;
+    animation-name: animation1;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+    visibility: hidden;
+}
+@keyframes animation1 {
+    0%{
+        width: 10px;
+        visibility: hidden;
+    }
+    100%{
+        width: 140px;
+        visibility: visible;
+    }
+}
+@keyframes animation2 {
+    0%{
+        display: none;
+        margin-top: 15px;
+        margin-left: 10px;
+    }
+    10%{
+        display: none;
+        margin-top: 15px;
+        margin-left: 10px;
+    }
+    20%{
+        display: none;
+        margin-top: 15px;
+        margin-left: 10px;
+    }
+    30%{
+        display: none;
+        margin-top: 15px;
+        margin-left: 10px;
+    }
+    40%{
+        display: none;
+        margin-top: 15px;
+        margin-left: 10px;
+    }
+    50%{
+        display: none;
+        margin-top: 15px;
+        margin-left: 10px;
+    }
+    60%{
+        display: none;
+        margin-top: 15px;
+        margin-left: 10px;
+    }
+    70%{
+        display: none;
+        margin-top: 15px;
+        margin-left: 10px;
+    }
+    80%{
+        display: none;
+        margin-top: 15px;
+        margin-left: 10px;
+    }
+    90%{
+        display: none;
+        margin-top: 15px;
+        margin-left: 10px;
+    }
+    100%{
+        display: inline;
+        margin-top: 15px;
+        margin-left: 10px;
+    }
+}
+#image2{
+    position: absolute;
+    top: 700px;
+    left: 400px;
+    width: 750px;
+    height: auto;
+    border: 1px solid black;
+}
+#pp2{
+    border-radius: 10px;
+    z-index: 5;
+    position: absolute;
+    top: 760px;
+    left: 0px;
+    width: 400px;
+    height: 250px;
+    text-align: justify;
+}
+#ll2{
+    background-color: rgb(248, 247, 247);
+    width: 140px;
+    height: 50px;
+    position: absolute;
+    top: 720px;
+    left: 750px;
+    border-radius: 20px;
+    visibility: hidden;
+}
+.l{
+    margin-top: 15px;
+    margin-left: 10px;
+    animation-name: animation2;
+    animation-duration: 5s;
+}
+.ll2{
+    animation-name: animation1;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+#image3{
+    width: 700px;
+    height: 500px;
+    position: absolute;
+    top: 1075px;
+    left: 0px;
+    border: 1px solid black;
+}
+#pp3{
+    border-radius: 10px;
+    z-index: 5;
+    position: absolute;
+    top: 1250px;
+    left: 710px;
+    width: 400px;
+    height: 150px;
+    text-align: justify;
+}
+#ll3{
+    background-color: rgb(248, 247, 247);
+    width: 140px;
+    height: 50px;
+    position: absolute;
+    top: 1100px; 
+    left: 250px; 
+    border-radius: 20px;
+    visibility: hidden; 
+    opacity: 1; 
+    z-index: 2;
+}
+.ll3{
+    animation-name: animation1;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+#image4{
+    width: 700px;
+    height: 500px;
+    position: absolute;
+    top: 1575px;
+    left: 500px;
+    border: 1px solid black;
+}
+#pp4{
+    border-radius: 10px;
+    z-index: 5;
+    position: absolute;
+    top: 1650px;
+    left: 0px;
+    width: 500px;
+    height: 350px;
+    text-align: justify;
+}
+#ll4{
+    background-color: rgb(248, 247, 247);
+    width: 140px;
+    height: 50px;
+    position: absolute;
+    top: 1600px; 
+    left: 800px; 
+    border-radius: 20px;
+    visibility: hidden; 
+    opacity: 1; 
+    z-index: 2;
+}
+.ll4{
+    animation-name: animation1;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+#image5{
+    width: 700px;
+    height: 500px;
+    position: absolute;
+    top: 2075px;
+    left: 0px;
+    border: 1px solid black;
+}
+#pp5{
+    border-radius: 10px;
+    z-index: 5;
+    position: absolute;
+    top: 2150px;
+    left: 710px;
+    width: 500px;
+    height: 350px;
+    text-align: justify;
+}
+#ll5{
+    background-color: rgb(248, 247, 247);
+    width: 140px;
+    height: 50px;
+    position: absolute;
+    top: 2100px; 
+    left: 300px; 
+    border-radius: 20px;
+    visibility: hidden; 
+    opacity: 1; 
+    z-index: 2;
+}
+.ll5{
+    animation-name: animation1;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+#mainpara{
+    width: 800px;
+    position: absolute;
+    left: 325px;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+#para{
+    text-align: justify;
+}
+#contact{
+    background-color: whitesmoke;
+    border: 2px solid black;
+    border-radius: 10px;
+    position: absolute;
+    top: 210px;
+    width: 1300px;
+}
